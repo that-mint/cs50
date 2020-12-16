@@ -14,7 +14,7 @@ int main(void)
     for (int r = 0; r < he; r++) //runs every bit of code her per row, until it reaches the number of the height, then stops
     {
     
-        int ha = r + 2; //change to 2 if need 2 hashes per line etc.
+        int ha = r + 1; //change to 2 if need 2 hashes per line etc.
         int s = he - r;
 
         for (int i = 0; i < s; i++) // for each row, take the spaces (height - row) and print
